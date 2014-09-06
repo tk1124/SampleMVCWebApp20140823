@@ -1,4 +1,4 @@
-server '54.64.47.174', roles: %w{web}, user: 'administrator'
+server 'localhost', roles: %w{web}, user: 'administrator'
 
 
 set :password_file, 'password'
