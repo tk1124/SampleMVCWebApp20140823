@@ -1,4 +1,4 @@
-server '54.64.130.38', roles: %w{web}, user: 'administrator'
+server '54.64.47.174', roles: %w{web}, user: 'administrator'
 
 
 set :password_file, 'password'
@@ -18,8 +18,8 @@ set :backup_filename, '_Backup_'
 set :wwwroot, 'C:\Inetpub\wwwroot'
 
 set :deploy_path, {
-  :web => 'C:\Intepub\wwwroot\web',
-  :app => 'C:\Intepub\wwwroot\app'
+  :web => 'C:\Inetpub\wwwroot',
+  :app => 'C:\Inetpub\wwwroot'
 };
 
 set :backup_path, {
